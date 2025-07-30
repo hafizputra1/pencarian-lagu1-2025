@@ -1,16 +1,16 @@
-### 📌 **Judul Tugas**:
+###  **Judul Tugas**:
 
 **Sistem Pencarian Lagu Berdasarkan Judul, Genre, dan Artis (Struktur Data)**
 
 ---
 
-### 💡 **Deskripsi Umum**:
+###  **Deskripsi Umum**:
 
 Aplikasi ini memungkinkan pengguna untuk mencari lagu berdasarkan *judul lagu*, *genre*, atau *nama artis*. Sistem ini menampilkan hasil pencarian yang sesuai dan efisien menggunakan struktur data seperti **array**, **hashing**, dan **searching algorithm**.
 
 ---
 
-### 🔧 **Struktur Data yang Digunakan**:
+###  **Struktur Data yang Digunakan**:
 
 1. **Array of Struct / Object**
 
@@ -38,7 +38,7 @@ Aplikasi ini memungkinkan pengguna untuk mencari lagu berdasarkan *judul lagu*, 
 
 ---
 
-### 🔍 **Fitur Utama Pencarian**:
+###  **Fitur Utama Pencarian**:
 
 1. **Pencarian berdasarkan Judul**
 
@@ -54,7 +54,7 @@ Aplikasi ini memungkinkan pengguna untuk mencari lagu berdasarkan *judul lagu*, 
 
 ---
 
-### 📊 **Contoh Data Lagu** (Dummy Data):
+###  **Contoh Data Lagu** (Dummy Data):
 
 ```plaintext
 | Judul Lagu      | Genre      | Artis              |
@@ -68,7 +68,7 @@ Aplikasi ini memungkinkan pengguna untuk mencari lagu berdasarkan *judul lagu*, 
 
 ---
 
-### 🧐 **Analisis Kompleksitas**:
+###  **Analisis Kompleksitas**:
 
 * **Linear Search**: O(n) – Sederhana, cocok untuk jumlah data kecil sampai menengah.
 * **Hash Table Access**: O(1) average case – sangat efisien bila implementasi benar.
@@ -77,20 +77,20 @@ Aplikasi ini memungkinkan pengguna untuk mencari lagu berdasarkan *judul lagu*, 
 
 ---
 
-### ✅ **Kelebihan Sistem**:
+###  **Kelebihan Sistem**:
 
 * Simpel dan efisien untuk data menengah.
 * Fleksibel untuk dikembangkan ke sistem rekomendasi.
 * Bisa diperluas ke pencarian multi-kriteria (judul dan artis sekaligus).
 
-### ❌ **Kekurangan**:
+###  **Kekurangan**:
 
 * Jika tidak menggunakan struktur indexing seperti hash atau tree, pencarian bisa lambat.
 * Belum mendukung typo atau *fuzzy search* (bisa ditambahkan kemudian).
 
 ---
 
-### ⚙️ **Contoh Kode Implementasi Awal (C++)**:
+###  **Contoh Kode Implementasi Awal (C++)**:
 
 ```cpp
 #include <iostream>
@@ -130,6 +130,3 @@ int main() {
 }
 ```
 
----
-
-> Jika ingin dibuatkan versi Python atau JavaScript, tinggal bilang!
